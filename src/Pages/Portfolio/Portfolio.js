@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
         <div className='bg-black'>
-            <h1 className='text-5xl py-8 font-serif text-center text-white'>My Completed Projects</h1>
+            <h1 className='text-5xl pb-6 font-serif text-center text-yellow-600 '>My Completed Projects</h1>
+            <hr className='w-1/2 mx-auto mb-8' /> 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 justify-items-center'>
             <div class="card w-96 glass mx-12">
                 <img className='h-72 w-full' src="https://i.ibb.co/7pVyLZ4/MY-PHOTOSHOT.png" alt="car!"/>
@@ -11,7 +13,7 @@ const Portfolio = () => {
                     <h2 class="card-title text-white">My-Photoshot</h2>
                     <p className='text-white'>In this website an individual photographer provides his/her services in professional manner</p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-outline text-white">Explore now!</button>
+                        <Link to='/photoshot' class="btn-set text-white">Explore now!</Link>
                     </div>
                 </div>
             </div>
@@ -21,7 +23,7 @@ const Portfolio = () => {
                     <h2 class="card-title text-white">GlobX-Wearhouse</h2>
                     <p className='text-white'>In this website, the owner manage, update and delete his products by login or authentication</p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-outline text-white">Explore now!</button>
+                        <Link to='/warehouse' class="btn-set text-white">Explore now!</Link>
                     </div>
                 </div>
             </div>
@@ -31,7 +33,7 @@ const Portfolio = () => {
                     <h2 class="card-title text-white">Daylight Convention Center</h2>
                     <p className='text-white'>In this website they provides convention center for any event in a professional manner.</p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-outline text-white">Explore now!</button>
+                        <Link to='/daylight' class="btn-set text-white">Explore now!</Link>
                     </div>
                 </div>
             </div>
@@ -41,7 +43,7 @@ const Portfolio = () => {
                     <h2 class="card-title text-white">Laptop Gallery</h2>
                     <p className='text-white'>Laptiop gallery is a website , where you can choose your best laptop randomly</p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-outline text-white">Explore now!</button>
+                        <Link to='/laptopgallery' class="btn-set text-white">Explore now!</Link>
                     </div>
                 </div>
             </div>
@@ -51,7 +53,7 @@ const Portfolio = () => {
                     <h2 class="card-title text-white">TechByko</h2>
                     <p className='text-white'>TechByko is a automobile tool manufacturing company, where admin can manage users order, admin can make another person admin etc. </p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-outline text-white">Explore now!</button>
+                        <Link to='/techbyko' class="btn-set text-white">Explore now!</Link>
                     </div>
                 </div>
             </div>
@@ -61,7 +63,7 @@ const Portfolio = () => {
                     <h2 class="card-title text-white">Laptop-House</h2>
                     <p className='text-white'>Laptop house is a laptop selling company, where user can order his desired laptop</p>
                     <div class="card-actions justify-center">
-                        <button class="btn btn-outline text-white">Explore now!</button>
+                        <Link to='/laptophouse' class="btn-set text-white">Explore now!</Link>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+
+.bodys{
+    display:flex;
+    justify-content: left;
+    min-height: 100px;
+    
+}
+
+.h-set{
+    position: relative;
+    font-size: 4vw;
+    color: #19191b;
+    -webkit-text-stroke: .2px #f5f2ec;
+}
+.h-set::before{
+    content: attr(data-text);
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color: #f5f2ec;
+    -webkit-text-stroke: 0vw #383d52;
+    
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%{
+        width:0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+
+
+.bodyss{
+    display:flex;
+    justify-content: left;
+    min-height: 100px;
+    
+}
+
+.h-sets{
+    position: relative;
+    font-size: 4vw;
+    color: #19191b;
+    -webkit-text-stroke: .2px #f5f2ec;
+}
+.h-sets::before{
+    content: attr(data-text);
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color: #f5f2ec;
+    -webkit-text-stroke: 0vw #383d52;
+    
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%{
+        width:0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+.video-set{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+}

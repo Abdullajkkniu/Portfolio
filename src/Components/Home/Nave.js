@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Nave = () => {
     const menuItem = <>
     <li><Link className='text-xl' to="/">Home</Link></li>
-    <li><Link className='text-xl' to="/portfolio">Portfolio</Link></li>
+    <li><Link className='text-xl' to="/slider">Portfolio</Link></li>
     <li><Link className='text-xl' to="/blog">Blogs</Link></li>
-    <li><Link className='text-xl' to="/about">About</Link></li>
+    <li><Link className='text-xl' to='/about'>About</Link></li>
     
     </>
 
@@ -23,14 +23,14 @@ const Nave = () => {
         {menuItem}
       </ul>
     </div>
-    <a class="text-2xl font-serif ml-8">Abdul Alim</a>
+    <a class="text-3xl font-serif ml-8">AB</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
       {menuItem}
     </ul>
   </div>
-  
+  <button class="btn-set rounded ml-15 text-white"><a href="https://drive.google.com/file/d/1_7HdNsF1EFx_4PoFtG0A-rcJ8rwotmx4/view?usp=sharing">Downoad Resume</a> </button>
 </div>
     );
 };

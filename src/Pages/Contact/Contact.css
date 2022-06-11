@@ -1,0 +1,26 @@
+.border-set{
+    background-color: black;
+    border-bottom:2px solid rgb(170, 149, 149);
+    outline: none;
+    color: white;
+}
+.area-set{
+    background-color: black;
+    border-bottom: 2px solid rgb(170, 149, 149);
+    border-radius: none;
+    outline:none;
+    
+}
+
+.btn-set{
+    padding: 10px;
+    font-size: large;
+    border: 1px solid;
+}
+.btn-set:hover{
+    padding: 10px;
+    background-color: burlywood;
+    color:black;
+    font-weight: bold;
+    font-size: large;
+}
