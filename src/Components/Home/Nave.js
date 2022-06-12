@@ -30,7 +30,7 @@ const Nave = () => {
       {menuItem}
     </ul>
   </div>
-  <button class="btn-set rounded ml-15 text-white"><a href="https://drive.google.com/file/d/1_7HdNsF1EFx_4PoFtG0A-rcJ8rwotmx4/view?usp=sharing">Downoad Resume</a> </button>
+  <button class="btn-set rounded ml-15 text-white"><a href="https://drive.google.com/file/d/1eWzkiy7Jcrw1wLNM_gLZ53wEo9GEcXwp/view?usp=sharing">Downoad Resume</a> </button>
 </div>
     );
 };
